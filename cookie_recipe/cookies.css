@@ -1,0 +1,65 @@
+body{
+  background-color: #FFE;
+  font-family: "Champagne & Limousines";
+
+}
+
+h1{
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  background-color: #F08080;
+  margin-top: 0px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2{
+  font-size: 20px;
+  text-align: center;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+   border:1px solid #000000;
+}
+
+#ingredients {
+    float:left;
+    padding-left:180px;
+    width: 400px;
+}
+
+#recipe {
+    float:left;
+    padding-left:40px;
+    width: 550px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li{
+  padding: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: #900;
+}
+
+h4{
+  color: #887;
+}
+
+hr{
+	border-top: 1px dotted #F08080;
+}
