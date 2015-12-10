@@ -1,0 +1,102 @@
+body{
+  font-family: "Helvetica";
+  margin-top: 40px;
+  background-color: #f4ebdf;
+}
+
+.nav{
+  list-style-type: none;
+  margin-top: 50px;
+  margin-right: 150px;
+  padding: 0;
+  overflow: hidden;
+  font-size: 16px;
+  font-stretch: condensed;
+  text-align: right;
+}
+
+.nav li{
+  display: inline;
+}
+
+.nav li:before{
+  content: "|";
+  color: #6D929B;
+}
+
+.nav li:first-child:before {
+  content: none;
+}
+
+.nav li a{
+  display: inline-block;
+  color: #6D929B;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+  color: #B7AFA3;
+}
+
+
+hr{
+  border: 1px solid #C1DAD6;
+  width: 80%;
+
+}
+
+h2{
+  color: #6D929B;
+  padding-top: 20px;
+  font-weight: normal;
+  font-stretch: semi-expanded;
+  font-size: 25px;
+  margin-left: 200px;
+}
+
+p{
+  color: #6D929B;
+  font-weight: lighter;
+  font-stretch: semi-expanded;
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: 200px;
+}
+
+FIGURE.works{
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+}
+
+figcaption{
+  color: #6D929B;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  font-weight: lighter;
+  font-stretch: semi-expanded;
+  font-size: 16px;
+}
+
+.icons{
+  list-style-type: none;
+  margin-left: 100px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.icons li{
+  display: inline;
+}
+
+.icons li a{
+  display: inline-block;
+  color: #6D929B;
+  padding: 0px 15px;
+  text-decoration: none;
+}
+
+.icons li a:hover:not(.active) {
+  color: #B7AFA3;
+}
