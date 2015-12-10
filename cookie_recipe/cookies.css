@@ -34,17 +34,12 @@ img {
    border:1px solid #000000;
 }
 
-#ingredients {
-    float:left;
-    width: 400px;
-    margin-left: 100px;
+h3{
+  color: #F08080;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 160px;
 }
-
-#recipe {
-    float:left;
-    width: 550px;
-}
-
 
 ul {
   list-style-type: none;
@@ -52,6 +47,24 @@ ul {
 
 li{
   padding: 5px;
+  font-size: 18px;
+  margin-left: 150px;
+}
+
+ol li{
+  margin-left: 175px;
+}
+
+span{
+  padding-left: 45px;
+}
+
+#small{
+  padding-left: 10px;
+}
+
+#small2{
+  padding-left: 30px;
 }
 
 a{
@@ -61,10 +74,19 @@ a{
 
 h4{
   color: #887;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 160px;
+}
+
+p{
+  margin-left: 160px;
 }
 
 hr{
 	border-top: 1px dotted #F08080;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .clearfix{
