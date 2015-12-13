@@ -7,7 +7,7 @@ body{
 .nav{
   list-style-type: none;
   margin-top: 50px;
-  margin-right: 150px;
+  margin-right: 100px;
   padding: 0;
   overflow: hidden;
   font-size: 16px;
@@ -42,14 +42,12 @@ body{
 
 hr{
   border: 1px solid #C1DAD6;
-  width: 80%;
-
+  width: 90%;
 }
 
 h2{
   color: #6D929B;
   padding-top: 70px;
-  margin-left: 100px;
   font-weight: lighter;
   font-stretch: semi-expanded;
   font-size: 45px;
@@ -57,38 +55,38 @@ h2{
 
 p{
   color: #6D929B;
-  margin-left: 100px;
   font-weight: lighter;
   font-stretch: semi-expanded;
   font-size: 25px;
   line-height: 35px;
 }
 
-
-IMG.about {
-    display: block;
-    width: 250px;
-    height: 250px;
-    margin-left: auto;
-    margin-right: 100px;
-    padding-top: 80px;
-    padding-bottom: 150px;
+.about {
+  width: 250px;
+  height: 250px;
+  padding-top: 80px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  float:left;
+  margin: auto;
 }
 
-#description {
-    float:left;
-    margin-left: 250px;
+.container {
+  width: 618px;
+  height: 500px;
+  /*position: relative;*/
+  margin: auto;
+
 }
 
-#pic {
-    float:left;
-    padding-left: 70px;
+.description {
+  float:left;
+  margin: auto;
 }
-
 
 .icons{
   list-style-type: none;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 20px;
   overflow: hidden;
 }
